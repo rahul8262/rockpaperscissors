@@ -101,8 +101,11 @@ function getResult(playerPick, computerPick) {
         (playerPick === 'Scissors' && computerPick === 'Paper')
     ) {
         return 'You won';
+    } else {
+        return 'You lose';
     }
 }
+
 isAutoplaying=false;
 let intervalId;
 
