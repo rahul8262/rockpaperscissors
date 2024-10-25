@@ -48,7 +48,7 @@ addEventListener('click', () => {
 
 function showResetConfirmation(){
     document.querySelector('.js-reset-confirmation').
-    innerHTML= `Are you super, you want to reset the score? 
+    innerHTML= `Are you sure, you want to reset the score? 
     <button class="js-reset-yes-confirm reset-confirm-button"> Yes </button>
     <button class="js-reset-no-confrim reset-confirm-button"> No </button>`;
     document.querySelector('.js-reset-yes-confirm').
